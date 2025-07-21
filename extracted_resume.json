@@ -1,0 +1,150 @@
+{
+  "basics": {
+    "email": "jankigabani10@gmail.com",
+    "name": "Janki Gabani",
+    "phone": "(+91)9638183121"
+  },
+  "work": [
+    {
+      "name": "Casepoint Pvt. Ltd.",
+      "position": "Associate Data Scientist",
+      "startDate": "2024-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Built and optimized FastAPI-based RAG pipelines for intelligent Q&A across billions of documents, achieving a ∼80% answer accuracy using fine-tuned local LLaMA3.1 models.",
+        "Led development of document summarization features in the FOIA software for U.S. Government, enhancing document triage efficiency by over65%.",
+        "Developed scalable API Gateway for parallel processing and bulk requests, improving throughput by3x using Docker-based microservices architecture.",
+        "Implemented LangChain with Tiktoken for token usage tracking and optimization, reducing token usage cost by28%.",
+        "Integrated ElasticSearch-powered RAG retrieval for semantic document matching with millisecond latency and high recall.",
+        "Designed a custom Text-to-SQL engine enabling dynamic querying across multiple databases; enhanced performance and query accuracy using internal logic rules and validation guardrails."
+      ]
+    },
+    {
+      "name": "LaMinds",
+      "position": "Intern",
+      "startDate": "2023-04",
+      "endDate": "2023-06",
+      "summary": "",
+      "highlights": [
+        "Fine-tuned FLUX image generation model on a custom dataset using LoRA adapters to generate domain-specific outputs.",
+        "Developed a mobile UI component detector using YOLOv8 for GUI Agent prototyping, achieving ∼85% detection accuracy.",
+        "Implemented OCR pipelines using Hugging Face models to extract text from complex image layouts with improved recognition rates.",
+        "Performed comprehensive API testing via Postman to validate model endpoints and integration workflows.",
+        "Worked on SQL-based backend operations; transformed and visualized data insights using Tableau for internal reporting."
+      ]
+    },
+    {
+      "name": "Chegg India Pvt. Ltd.",
+      "position": "Subject Matter Expert (Freelancing)",
+      "startDate": "2022-03",
+      "endDate": "2023-02",
+      "summary": "",
+      "highlights": [
+        "Provided solutions to students’ queries as a Computer Science Subject Matter Expert and offered in-depth clarification and guidance.",
+        "Leveraged problem-solving abilities to address diverse academic challenges effectively. Played a key role in enhancing student’s understanding through clear and concise explanations."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "P P Savani University",
+      "studyType": "Bachelor of Technology",
+      "area": "Computer Engineering",
+      "startDate": "",
+      "endDate": "",
+      "score": "8.75"
+    },
+    {
+      "institution": "Matrubhumi Vidhyalaya",
+      "studyType": "Class XII",
+      "area": "",
+      "startDate": "",
+      "endDate": "",
+      "score": "70.87%"
+    },
+    {
+      "institution": "V N Godhani Kanya Vidhyalaya",
+      "studyType": "Class X",
+      "area": "",
+      "startDate": "",
+      "endDate": "",
+      "score": "90.33%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical",
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "Flask",
+        "Next.js",
+        "MongoDB",
+        "PostgreSQL",
+        "Elastic Search",
+        "Docker",
+        "Object-Oriented Programming",
+        "AWS SageMaker",
+        "Prompt Engineering",
+        "LLMs",
+        "RAG pipelines",
+        "fine-tuning",
+        "CrewAI",
+        "Multi-Agent Pipelines",
+        "Computer Vision",
+        "Machine Learning",
+        "Deep Learning Architectures",
+        "Exploratory Data Analysis",
+        "Data Storytelling",
+        "Data Visualization",
+        "Tableau",
+        "Model Deployment",
+        "Version Control"
+      ]
+    },
+    {
+      "name": "Non Technical",
+      "keywords": [
+        "Leadership",
+        "communication",
+        "teamwork",
+        "community engagement",
+        "policy management",
+        "project management",
+        "networking",
+        "partnerships"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Auto Encoder Self-Driving Car",
+      "description": "Created and trained an autoencoder model for a self-driving car project",
+      "keywords": [
+        "Jupyter Notebook",
+        "Amazon SageMaker"
+      ],
+      "highlights": [
+        "Applied deep learning techniques to enhance the car’s perception and decision-making capabilities."
+      ],
+      "startDate": "",
+      "endDate": "2023-09"
+    },
+    {
+      "name": "SwasthKAI",
+      "description": "Developed SwasthaKAI, a cutting-edge nutrition app employing Python, OpenCV, and a web scraping approach.",
+      "keywords": [
+        "Python",
+        "OpenCV",
+        "web scraping"
+      ],
+      "highlights": [
+        "Enabled users to scan food packaging, access detailed ingredient data, and assess health impacts",
+        "Achieved a remarkable25% improvement in system Accuracy and gained87% precision, ensuring scalable maintainability"
+      ],
+      "startDate": "",
+      "endDate": "2023-03"
+    }
+  ]
+}

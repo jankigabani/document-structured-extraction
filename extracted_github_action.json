@@ -1,0 +1,60 @@
+{
+  "name": "MkDocs Publisher Action",
+  "author": "",
+  "description": "A simple action to build an MkDocs site and push it to the gh-pages branch. Should be easy to use.",
+  "branding": {
+    "icon": "book-open",
+    "color": "blue"
+  },
+  "inputs": {
+    "python-version": {
+      "description": "The version of Python to set up for building.",
+      "required": false,
+      "default": "3.11"
+    },
+    "requirements-file": {
+      "description": "Path to the Python requirements file.",
+      "required": true
+    },
+    "gh-token": {
+      "description": "GitHub token for deployment.",
+      "required": true
+    }
+  },
+  "outputs": {
+    "page-url": {
+      "description": "The URL of the deployed GitHub Pages site.",
+      "value": null
+    }
+  },
+  "runs": {
+    "using": "composite",
+    "steps": [
+      {
+        "name": "Checkout Code",
+        "uses": "actions/checkout@v4"
+      },
+      {
+        "name": "Setup Python",
+        "uses": "actions/setup-python@v5",
+        "with": "python-version"
+      },
+      {
+        "name": "Install Dependencies",
+        "run": "pip install -r ${{ inputs.requirements-file }}",
+        "shell": "bash"
+      },
+      {
+        "name": "Build Site",
+        "run": "mkdocs build",
+        "shell": "bash"
+      },
+      {
+        "name": "Deploy to Pages",
+        "uses": "peaceiris/actions-gh-pages@v3",
+        "with": "github_token: ${{ inputs.gh-token }}\npublish_dir: ./site",
+        "if": "github.ref == 'refs/heads/main'"
+      }
+    ]
+  }
+}

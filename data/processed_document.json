@@ -1,0 +1,168 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "phone": "111.111.1111",
+    "email": "john.doe@example.com",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "",
+        "url": "Github:// JohnDoe"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "LinkedIn:// johndoe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "COMPANY A",
+      "position": "ADVANCED DEVELOPMENT INTERN",
+      "location": "Somewhere, XX",
+      "startDate": "2018-05",
+      "endDate": "2018-08",
+      "summary": "",
+      "highlights": [
+        "Developed a cloud-based solution to automate and enhance the engineering process for network installation using AWS and Python.",
+        "Worked with other teams to create a system to collect and visualize telemetry data of network elements in real time using AWS, Python, and DOMO.",
+        "Consulted with other teams to jump start cloud-technology adoption and solutions throughout the company.",
+        "Contributed to initial planning for optics-alignment system utilizing AWS, reinforcement learning, and an IoT architecture."
+      ],
+      "url": ""
+    },
+    {
+      "name": "COMPANY B",
+      "position": "INTERN",
+      "location": "Somewhere, XX",
+      "startDate": "2017-02",
+      "endDate": "2017-11",
+      "summary": "",
+      "highlights": [
+        "Coordinated with multiple departments to lead a software product evaluation resulting in a ﬁt-for-purpose verdict and provided a recommendation on moving forward.",
+        "Organized meetings with the vendor to receive in-depth product information and answers to cross-departmental questions.",
+        "Participated on the Web Development Taskforce to provide AngularJS sites to internal customers.",
+        "Participated in an internal CodeJam to prototype a blockchain application for managing a model supply-chain.",
+        "Worked with a team to plan executive visit and team-building exercise for 200 employees."
+      ],
+      "url": ""
+    },
+    {
+      "name": "MY UNIVERSITY ITS",
+      "position": "ASSISTANT SUPPORT SPECIALIST",
+      "location": "Somewhere, XX",
+      "startDate": "2015-08",
+      "endDate": "2016-10",
+      "summary": "",
+      "highlights": [
+        "Interacted with clients to assess their problems and implement a solution in an efﬁcient, friendly manner.",
+        "Prepared workstations and laptops for future use by company employees.",
+        "Created scripts to automate common tasks and increase productivity."
+      ],
+      "url": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "MY UNIVERSITY",
+      "studyType": "BACHELOR OF SCIENCE",
+      "area": "COMPUTER SCIENCE WITH MINORS IN MATHEMATICS AND STATISTICS",
+      "startDate": "",
+      "endDate": "2019-12",
+      "score": "4.0 / 4.0",
+      "url": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "Python",
+        "C/C++",
+        "PHP",
+        "JavaScript",
+        "Matlab",
+        "R",
+        "SAS"
+      ]
+    },
+    {
+      "name": "Technology",
+      "level": "",
+      "keywords": [
+        "Git/Github",
+        "AWS",
+        "Linux",
+        "UNIX",
+        "Windows",
+        "ROS",
+        "Artificial Intelligence",
+        "Automation"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "SPACE ROBOTICS TEAM",
+      "description": "Spearhead the development effort for the path-planning functionality of a team of three robots.",
+      "keywords": [
+        "ROS",
+        "Python"
+      ],
+      "highlights": [],
+      "startDate": "2018-01",
+      "endDate": "Present",
+      "url": "",
+      "roles": [
+        "PATH-PLANNING LEAD"
+      ],
+      "entity": "",
+      "type": ""
+    },
+    {
+      "name": "CHIT CHAT",
+      "description": "Lead the development of Chit Chat, an anonymous chat application created as a class project. Chit Chat provides real-time communication while utilizing a PHP backend and AngularJS frontend.",
+      "keywords": [
+        "PHP",
+        "AngularJS"
+      ],
+      "highlights": [],
+      "startDate": "2018-01",
+      "endDate": "2018-05",
+      "url": "",
+      "roles": [],
+      "entity": "",
+      "type": "CLASS PROJECT FOR DISTRIBUTED CLIENT-SERVER PROGRAMMING"
+    }
+  ],
+  "languages": [],
+  "awards": [
+    {
+      "title": "Dean’s List (All Semesters)",
+      "date": "",
+      "awarder": "MY UNIVERSITY",
+      "summary": ""
+    },
+    {
+      "title": "National Merit Scholarship Finalist",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Scrum Alliance Certiﬁed ScrumMaster",
+      "issuer": "Scrum Alliance",
+      "date": "",
+      "url": ""
+    }
+  ],
+  "volunteer": [],
+  "publications": [],
+  "interests": [],
+  "references": []
+}
